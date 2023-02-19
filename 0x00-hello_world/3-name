@@ -1,2 +1,2 @@
 #!/bin/bash
-ijskjdsjdfjhdfidsjs
+gcc $CFILE -o cisfun
