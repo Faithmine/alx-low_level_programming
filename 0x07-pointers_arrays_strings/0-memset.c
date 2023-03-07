@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /*
 * a function that fills memory with a constant byte.
@@ -8,7 +8,8 @@
 *Return: s
 */
 
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
+
 {
 	unsigned int i;
 
