@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * empty file containing a prototype
- * just to complete assignment
+ * _isupper - checks for an uppercase character
+ * @c:contains an integer
+ * Return: 1 if true, 0 if false
  */
 
 int _isupper(int c);
