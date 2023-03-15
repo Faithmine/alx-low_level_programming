@@ -4,10 +4,11 @@
 #include "main.h"
 
 /**
- * _strdup: function returns a pointer to a new string which is a duplicate of the string
+ * _strdup - function returns a pointer to a new string
+ *	which is a duplicate of the string
  * @str: has a duplicate
- * returns: a pointer to the duplicated string.
- * It returns NULL if insufficient memory was available
+ * Return: a pointer to the duplicated string.
+ *	It returns NULL if insufficient memory was available
  */
 char *_strdup(char *str)
 	{
@@ -18,6 +19,8 @@ char *_strdup(char *str)
 	else
 	{
 	char *s = strdup(str);
+
 	return (s);
+
 	}
 	}

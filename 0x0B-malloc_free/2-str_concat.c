@@ -3,9 +3,10 @@
 
 /**
  * str_concat - function that concatenates two strings
- * @s1: string 1. * @s2: string to be concatenated to s1.
- * Return: NULL on failure. 
- * 	if NULL is passed, treat it as an empty string.
+ * @s1: string 1.
+ * @s2: string to be concatenated to s1.
+ * Return: NULL on failure.
+ *	if NULL is passed, treat it as an empty string.
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -29,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; s1[i]; i++)
 		concat_str[concat_i++] = s1[i];
 
-	for (i = 0; s2[ix]; i++)
+	for (i = 0; s2[i]; i++)
 		concat_str[concat_i++] = s2[i];
 
 	return (concat_str);
